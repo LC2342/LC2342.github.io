@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Xander Arthurs Delong -->
+<html lang="en"> 
+<head>
+	<title>Misty Spring</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch icon.png>
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+	<div id="container">
+	
+	<!-- Use the header area for the website name or logo -->
+	<header>
+		<img src="images/springs.jpg" alt="picture of an active hot spring" height=190 width=300>
+	</header>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	<nav>
+		<ul>
+		<a href="index.html">Home</a>&nbsp; &nbsp;
+		<a href="about.html">About</a>&nbsp; &nbsp;
+		<a href="team.html">Our Team</a>&nbsp; &nbsp;
+		<a href="specials.html">Specials</a>&nbsp; &nbsp;
+		<a href="training.html">Training</a>&nbsp; &nbsp;
+		<a href="media.html">Media</a>&nbsp; &nbsp;
+		<a href="faqs.html">FAQs</a>&nbsp; &nbsp;
+		<a href="contact.html">Contact Us</a>&nbsp; &nbsp;
+		<a href="reports.html">Reports</a>&nbsp; &nbsp;
+		</ul>
+	</nav>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+	<div id="form">
+	<h2>Complete the form below to place your order.</h2>
+	<form class="form-grid"> <!--Start Form-->
+		<fieldset>
+			<legend>Customer Information</legend>
+			<label for="fName">First Name:</label>
+			<input type="text" name="fName" id="fName" required>
+			
+			<label for="fName">Last Name:</label>
+			<input type="text" name="lName" id="lName" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" required>
+			
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" required>
+		</fieldset>
+		
+		<fieldset>
+		<legend>How would you like to recieve your order</legend>
+		<input type="radio" id="dropoff" name="method" value="dropoff">
+		<label for="dropoff">Drop-Off Order</label><br>
+		
+		<input type="radio" id="pickup" name="method" value="pickup">
+		<label for="pickup">Pick-Up Order</label><br>
+		
+		</fieldset>
+	
+		<fieldset>
+			<legend>Additional Information</legend>
+			<p>I would like more information about</p>
+			
+			<label for"price"><input type="checkbox" name="interest" id="price" value="Pricing">Pricing</label>
+			
+			<label for="ship time"><input type="checkbox" name="Interest" id="shipping" value="shipping">Shipping Time</label>
+			
+			<label for="install"><input type="checkbox" name="interest" id="install" value="Installation">Time To Install</label>
+		</fieldset>
+		<fieldset>
+			<legend>Referral Source</legend>
+			<label for="reference">How did you find us?</label>
+			<select name-"reference" id="reference">
+				<option value="ad">Advertisement</option>
+				<option value="friend">Friend</option>
+				<option value="google">Google</option>
+				<option value="social">Social Media</option>
+				<option value="other">Other</option>
+			</select>
+			
+			<label for="questions">Questions</label>
+			<textarea id="questions" name="questions" row-"5" cols-"35"></textarea>
+			
+			<label for="promo">Promo Code:</label>
+			<input type="text" id="promo" name="promo">
+		</fieldset>
+		
+		<input type="submit" id="submit" value="submit" class="btn">
+		
+	</form>
+	
+	</main>
+	
+	<div>
+	</div>
+	
+	<!-- Use the footer area to add webpage footer content -->
+	<footer>
+		<p>&copy; Copyright 2023. All Rights Reserved.</p>
+		<p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+	</footer>
+	
+	</div>
+	
+</body>
+</html>
